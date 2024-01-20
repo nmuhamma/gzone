@@ -57,6 +57,7 @@ def swagger():
     #data = json.load(open(json_url))
     #return render_template('showjson.jade', data=data)
 
+
 if __name__ == '__main__':
     with app.app_context():
         db.create_all()
